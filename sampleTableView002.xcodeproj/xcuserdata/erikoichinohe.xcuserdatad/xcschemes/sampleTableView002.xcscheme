@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "198CF8221E3AD80C000534B3"
+               BuildableName = "sampleTableView002.app"
+               BlueprintName = "sampleTableView002"
+               ReferencedContainer = "container:sampleTableView002.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "198CF8361E3AD80C000534B3"
+               BuildableName = "sampleTableView002Tests.xctest"
+               BlueprintName = "sampleTableView002Tests"
+               ReferencedContainer = "container:sampleTableView002.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "198CF8411E3AD80C000534B3"
+               BuildableName = "sampleTableView002UITests.xctest"
+               BlueprintName = "sampleTableView002UITests"
+               ReferencedContainer = "container:sampleTableView002.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "198CF8221E3AD80C000534B3"
+            BuildableName = "sampleTableView002.app"
+            BlueprintName = "sampleTableView002"
+            ReferencedContainer = "container:sampleTableView002.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "198CF8221E3AD80C000534B3"
+            BuildableName = "sampleTableView002.app"
+            BlueprintName = "sampleTableView002"
+            ReferencedContainer = "container:sampleTableView002.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "198CF8221E3AD80C000534B3"
+            BuildableName = "sampleTableView002.app"
+            BlueprintName = "sampleTableView002"
+            ReferencedContainer = "container:sampleTableView002.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
